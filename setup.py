@@ -3,8 +3,6 @@
 Install wagtail-accessibility using setuptools
 """
 
-from wagtailreadability import __version__
-
 with open('README.rst', 'r') as f:
     readme = f.read()
 
@@ -17,7 +15,7 @@ except ImportError:
 
 setup(
     name='wagtail-accessibility',
-    version=__version__,
+    version='0.1.0',
     description="A plugin to assist with accessibility when developing in Wagtail.",
     long_description=readme,
     author='Liam Brenner',
