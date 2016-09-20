@@ -25,3 +25,26 @@ To use it, simply include this in your template, and from now on all page previe
 
     {% load wagtailaccessibility_tags %}
     {% tota11y %}
+
+Jinja2
+======
+
+This plugin also contains a jinja2 implementation, to use it, include the following in your config.
+
+.. code-block:: python
+
+    {
+        'BACKEND': 'django.template.backends.jinja2.Jinja2',
+        'OPTIONS': {
+            'extensions': [
+                ...
+                'wagtailaccessibility.jinja2tags.tota11y',
+            ],
+        },
+    }
+
+The template tag can then be used like so.
+
+.. code-block:: html
+
+    {{ tota11y() }}
