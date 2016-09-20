@@ -15,7 +15,7 @@ except ImportError:
 
 setup(
     name='wagtail-accessibility',
-    version='0.1.0',
+    version='0.1.1',
     description="A plugin to assist with accessibility when developing in Wagtail.",
     long_description=readme,
     author='Liam Brenner',
