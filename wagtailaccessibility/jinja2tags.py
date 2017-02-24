@@ -7,7 +7,7 @@ from django.template.loader import render_to_string
 @jinja2.contextfunction
 def tota11y_include(context):
     request = context.get('request')
-    if request.is_preview:
+    if getattr(request, 'is_preview', False):
         return render_to_string('wagtailaccessibility/tota11y.html')
     else:
         return ""
