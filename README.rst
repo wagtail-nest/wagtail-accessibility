@@ -2,7 +2,7 @@
 wagtail-accessibility
 =====================
 
-A plugin to assist with accessibility when developing in Wagtail.
+A plugin to assist with accessibility when developing in Wagtail. `Screencast demo <https://www.youtube.com/watch?v=QrgTrE0ug60>`_.
 
 Installing
 ==========
@@ -11,7 +11,7 @@ Install using pip::
 
     pip install wagtail-accessibility
 
-It works with Wagtail 1.0 and upwards.
+Then add 'wagtailaccessibility' to your INSTALLED_APPS. It works with Wagtail 1.0 and upwards.
 
 Using
 =====
