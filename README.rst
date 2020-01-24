@@ -13,6 +13,10 @@ Install using pip::
 
 Then add 'wagtailaccessibility' to your INSTALLED_APPS. It works with Wagtail 1.0 and upwards.
 
+If you want to restrict visibility of the template tag to specific groups, add a 'WAGTAIL_ACCESSIBILITY_GROUPS' setting with a list of groups. For example::
+
+    WAGTAIL_ACCESSIBILITY_GROUPS = ["editors", "moderators"]
+
 Using
 =====
 
