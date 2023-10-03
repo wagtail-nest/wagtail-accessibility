@@ -14,7 +14,7 @@ except ImportError:
     from setuptools import setup, find_packages
 
 install_requires = [
-    'wagtail>=2.9',
+    'wagtail>=4.1',
 ]
 
 tests_require = [
