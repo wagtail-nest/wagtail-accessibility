@@ -94,3 +94,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 WAGTAILADMIN_BASE_URL = "http://example.com"
+
+USE_TZ = False
