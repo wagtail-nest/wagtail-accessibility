@@ -13,6 +13,18 @@ except ImportError:
     use_setuptools()
     from setuptools import setup, find_packages
 
+install_requires = [
+    'wagtail>=4.1',
+]
+
+tests_require = [
+    "pytest==6.2.5",
+    "pytest-cov==3.0.0",
+    "pytest-django==4.5.0",
+    "pytest-pythonpath==0.7.3",
+    "coverage==6.0",
+]
+
 setup(
     name='wagtail-accessibility',
     version='0.2.1',
@@ -22,9 +34,11 @@ setup(
     author_email='liam@takeflight.com.au',
     url='https://github.com/takeflight/wagtail-accessibility',
 
-    install_requires=[
-        'wagtail>=1.0',
-    ],
+    install_requires=install_requires,
+    tests_require=tests_require,
+    extras_require={
+        "test": tests_require,
+    },
     zip_safe=False,
     license='BSD License',
 
