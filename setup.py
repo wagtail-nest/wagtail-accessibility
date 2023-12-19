@@ -15,11 +15,11 @@ except ImportError:
 
 setup(
     name='wagtail-accessibility',
-    version='0.2.1',
+    version='1.0.0',
     description="A plugin to assist with accessibility when developing in Wagtail.",
     long_description=readme,
-    author='Liam Brenner',
-    author_email='liam@takeflight.com.au',
+    author='Wagtail Nest contributors',
+    author_email='hello@wagtail.org',
     url='https://github.com/takeflight/wagtail-accessibility',
 
     install_requires=[

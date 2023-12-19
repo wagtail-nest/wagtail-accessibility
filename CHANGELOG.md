@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [unreleased] - YYYY-MM-DD
 
+## [1.0.0] - 2023-12-19
+
+**New maintainers!** This release is identical to 0.2.1, but is the first release to follow semantic versioning, and is the first release by the new maintainers.
+
 ## [0.2.1] - 2020-02-04
 
 - Support Django 3 [@tomdyson](https://github.com/tomdyson)
