@@ -1,6 +1,7 @@
 # [wagtail-accessibility](https://pypi.org/project/wagtail-accessibility/)
 
-A plugin to assist with accessibility when developing in Wagtail.
+> Accessibility content checks for Wagtail websites
+
 [Screencast demo](https://www.youtube.com/watch?v=QrgTrE0ug60).
 
 ## Installing
