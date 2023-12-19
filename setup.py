@@ -20,7 +20,7 @@ tests_require = [
 
 setup(
     name='wagtail-accessibility',
-    version='1.0.0',
+    version='2.0.0',
     description="Accessibility content checks for Wagtail websites",
     long_description=long_description,
     long_description_content_type="text/markdown",
