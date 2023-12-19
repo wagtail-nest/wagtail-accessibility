@@ -1,6 +1,6 @@
 # [wagtail-accessibility](https://pypi.org/project/wagtail-accessibility/)
 
-Accessibility content checks for Wagtail websites. Try it out on our [static demo page](https://wagtail-nest.github.io/wagtail-accessibility/)!
+✅ Accessibility content checks for Wagtail websites. Try it out on our [static demo page](https://wagtail-nest.github.io/wagtail-accessibility/)!
 
 ---
 
