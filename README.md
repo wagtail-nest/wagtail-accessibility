@@ -6,6 +6,25 @@
 
 [![Screenshot of a content page with accessibility checker, flagging a heading issue](.github/wagtail-accessibility.webp)](https://wagtail-nest.github.io/wagtail-accessibility/)
 
+## Why you need this
+
+As of Wagtail 4.2, Wagtail has [built-in accessibility checks](https://wagtail.org/blog/introducing-wagtails-new-accessibility-checker/). However those checks are only based on automation – and are only set up for scenarios where the checks can always provide correct results, rather than leaving room for interpretation.
+
+In contrast, wagtail-accessibility focuses on providing tools to support CMS users with their _manual_ testing:
+
+- Visualising headings in use on the page, to check whether there are enough
+- Checking for color contrast
+- Checking link text for common possible mistakes
+- Identifying inputs with missing labels
+- Highlighting images without alt text
+- Visualising landmarks in use on the page
+
+It also integrates a "screen reader wand", for CMS users to preview how a given element would appear for a screen reader.
+
+---
+
+For more details about the future of accessibility checks in Wagtail, read [Looking for sponsorship – Accessibility checks for site administrators](https://wagtail.org/blog/looking-for-sponsorship-accessibility-checks-for-site-administrators/).
+
 ## Installing
 
 Install using pip:
