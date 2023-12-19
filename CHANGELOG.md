@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [unreleased] - YYYY-MM-DD
 
+- Adjust test matrix to use Wagtail 5.2 [@nickmoreton](https://github.com/nickmoreton)
+- Drop wagtail 5.0 from the test matrix [@nickmoreton](https://github.com/nickmoreton)
+- Update tox.ini envlist to consider that Django 3.2 does not support Python 3.11 [@katdom13](https://github.com/katdom13)
+- Update minimum Wagtail version to 4.1 in setup.py [@katdom13](https://github.com/katdom13)
+- Add USE_TZ to avoid removal warnings from Django [@katdom13](https://github.com/katdom13)
+- Adapt tox-gh-actions [@katdom13](https://github.com/katdom13)
+- Run updatemodulepaths [@katdom13](https://github.com/katdom13)
+- Update gitignore [@katdom13](https://github.com/katdom13)
+- Add GitHub Actions [@engineervix](https://github.com/engineervix)
+- Add staticfiles/ to .gitignore [@engineervix](https://github.com/engineervix)
+- Add test suite [@engineervix](https://github.com/engineervix)
+- Update setup.py to include testing deps [@engineervix](https://github.com/engineervix)
+- Add testing dependencies [@engineervix](https://github.com/engineervix)
+- Add tox configuration [@engineervix](https://github.com/engineervix)
+
 ## [1.0.0] - 2023-12-19
 
 **New maintainers!** This release is identical to 0.2.1, but is the first release to follow semantic versioning, and is the first release by the new maintainers.
