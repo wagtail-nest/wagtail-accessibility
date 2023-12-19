@@ -2,7 +2,9 @@
 
 > Accessibility content checks for Wagtail websites
 
-[Screencast demo](https://www.youtube.com/watch?v=QrgTrE0ug60).
+[![Screenshot of a content page with accessibility checker, flagging a heading issue](.github/wagtail-accessibility.webp)](https://wagtail-nest.github.io/wagtail-accessibility/)
+
+Try it out on our [static demo page](https://wagtail-nest.github.io/wagtail-accessibility/)!
 
 ## Installing
 
