@@ -1,17 +1,10 @@
 #!/usr/bin/env python
-"""
-Install wagtail-accessibility using setuptools
-"""
 
-with open('README.rst', 'r') as f:
-    readme = f.read()
+from setuptools import find_packages, setup  # type: ignore
 
-try:
-    from setuptools import setup, find_packages
-except ImportError:
-    from ez_setup import use_setuptools
-    use_setuptools()
-    from setuptools import setup, find_packages
+with open("README.md", encoding="utf-8") as readme_file:
+    long_description = readme_file.read()
+
 
 install_requires = [
     'wagtail>=4.1',
@@ -29,7 +22,8 @@ setup(
     name='wagtail-accessibility',
     version='1.0.0',
     description="A plugin to assist with accessibility when developing in Wagtail.",
-    long_description=readme,
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author='Wagtail Nest contributors',
     author_email='hello@wagtail.org',
     url='https://github.com/takeflight/wagtail-accessibility',
