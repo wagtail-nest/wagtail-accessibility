@@ -69,3 +69,16 @@ The template tag can then be used like so:
 ```jinja2
 {{ tota11y() }}
 ```
+
+## Release process
+
+This section is for maintainers of this package.
+
+1. Ensure `CHANGELOG.md` is up to date.
+   - Don't forget to update the release date
+   - Consider the perspective of the person reading the changelog. What do they need to know? Keep it short and to the point, most important bits first.
+2. Check the version number in `setup.py` and update it if necessary. Follow [semantic versioning](https://semver.org/).
+3. Commit and push the changes
+4. From the GitHub interface, create a new release, using the version number as the tag name (GitHub will create the tag for you)
+   - GitHub Actions will automatically build and publish the new version to PyPI when a GitHub release is created
+5. Back to development: Update the version number in `setup.py` to the next version, and add a new section to `CHANGELOG.md` for the next release (with a date of "unreleased")
