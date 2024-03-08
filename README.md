@@ -33,7 +33,7 @@ Install using pip:
 pip install wagtail-accessibility
 ```
 
-Then add `wagtailaccessibility` to your `INSTALLED_APPS`. It works with Wagtail 4.1 and upwards.
+Then add `wagtailaccessibility` to your `INSTALLED_APPS`. It works with Wagtail 5.2 and upwards.
 
 ## Using
 

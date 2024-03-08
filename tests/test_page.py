@@ -5,12 +5,9 @@ from tests.testapp.models import SimplePage
 
 
 validity = {
-    'is_valid': True
+    'is_valid': True,
+    'is_available': True,
 }
-
-if settings.WAGTAIL_VERSION >= (4, 0):
-    validity['is_available'] = True
-
 
 def test_preview(admin_client):
     simple_page = SimplePage.objects.first()
