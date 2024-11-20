@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [unreleased] - YYYY-MM-DD
 
-- Adjust test matrix to use Wagtail 6.0 [@katdom13](https://github.com/katdom13)
+- Adjust test matrix to use Wagtail 6 [@katdom13](https://github.com/katdom13)
 - Drop Wagtail < 5.2 from the test matrix [@katdom13](https://github.com/katdom13)
 - Add Python 3.12 to test matrix [@katdom13](https://github.com/katdom13)
 - Update minimum Wagtail version to 5.2 in setup.py [@katdom13](https://github.com/katdom13)
