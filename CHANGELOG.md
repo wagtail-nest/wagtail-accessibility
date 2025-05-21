@@ -10,6 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Drop Wagtail < 5.2 from the test matrix [@katdom13](https://github.com/katdom13)
 - Add Python 3.12 to test matrix [@katdom13](https://github.com/katdom13)
 - Update minimum Wagtail version to 5.2 in setup.py [@katdom13](https://github.com/katdom13)
+- Add Wagtail 7.0 to test matrix
+- Add Django 5.2 to test matrix
 
 ## [v2.0.0] - 2023-12-19
 
