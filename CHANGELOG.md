@@ -6,10 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [unreleased] - YYYY-MM-DD
 
+- Update minimum Wagtail version to 7.0 [@damwaingames](https://github.com/damwaingames)
+- Change tox matrix to only supported versions of Django (4.2, 5.2, 6.0) and Wagtail (7.0, 7.2, 7.3) [@damwaingames](https://github.com/damwaingames)
+- Remove python 3.8 and 3.9 support [@damwaingames](https://github.com/damwaingames)
+- Added python 3.13 and 3.14 support [@damwaingames](https://github.com/damwaingames)
+- Updated requirements and setup to more recent packages [@damwaingames](https://github.com/damwaingames)
+
 - Adjust test matrix to use Wagtail 6 [@katdom13](https://github.com/katdom13)
 - Drop Wagtail < 5.2 from the test matrix [@katdom13](https://github.com/katdom13)
 - Add Python 3.12 to test matrix [@katdom13](https://github.com/katdom13)
 - Update minimum Wagtail version to 5.2 in setup.py [@katdom13](https://github.com/katdom13)
+- Add Wagtail 7.0 to test matrix
+- Add Django 5.2 to test matrix
 
 ## [v2.0.0] - 2023-12-19
 
