@@ -11,7 +11,7 @@ install_requires = [
 ]
 
 tests_require = [
-    "pytest==6.2.5",
+    "pytest==9.0.3",
     "pytest-cov==3.0.0",
     "pytest-django==4.5.0",
     "pytest-pythonpath==0.7.3",
